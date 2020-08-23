@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VisualInspec.exe" version="1.0.0.0" publicKeyToken="2d167d6646344d0f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VisualInspec" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VisualInspec.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenCvSharp.dll" size="840704">
+      <assemblyIdentity name="OpenCvSharp" version="1.0.0.0" publicKeyToken="6ADAD1E807FEA099" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OO9mta9gSv7bqpUDoSZwZ1Td3O48VNsnDkDLrDQj50I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenCvSharp.Blob.dll" size="39424">
+      <assemblyIdentity name="OpenCvSharp.Blob" version="1.0.0.0" publicKeyToken="6ADAD1E807FEA099" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qeGjzCP7FGujDGz8TYRTGCSaV8pFAww8MduLCKSpB8E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenCvSharp.Extensions.dll" size="25088">
+      <assemblyIdentity name="OpenCvSharp.Extensions" version="1.0.0.0" publicKeyToken="6ADAD1E807FEA099" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zB0y+pYT+nPZONChjV6erHF1jWCc+aO4QFaauMhL7oI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenCvSharp.UserInterface.dll" size="12800">
+      <assemblyIdentity name="OpenCvSharp.UserInterface" version="1.0.0.0" publicKeyToken="6ADAD1E807FEA099" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+UoNmXTD1oG+2yOCspLkVpyijysPuLmcJCjxFkwwzic=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualInspec.exe" size="10752">
+      <assemblyIdentity name="VisualInspec" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FhgY9CNxNk06YWFelpJztcIjAtUR6LYKaEz76gI15VM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="VisualInspec.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAP-RICH-DELL-2\Admin" issuerKeyHash="9e41ca59129d4afb053a844e4212e8fa2a4fa415" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>frJayBVh6Xrfk03Rj3CsujzezXRKVSJkxiljxt1PCKs=</DigestValue></Reference></SignedInfo><SignatureValue>K2PN29WloWD6/GAw2eEaNjWY4vYdXlkby5OBwoGRxuQUs5mzn/gjS+F98BPg34NtJxK5gNPVBDJtNvN5GrT2663MKvmuH+cu+vSnRQqf7F0L3IJiCDSMZ10FUQ9ZgVErXMbNHFYnRaIYmej1WjXfuk6TzENozc7PlNC5qKdGghM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mYWFb2wrjgMtXC6dZkA2DniA/jGNjtJWQ7i8s4PItGCUlhp2Win52kJ9+tZYZQ+Kw4qTskeE+/ek4IBG0wMdIjjSQk+6l93HaqKwdzi1KznbrMJq3eJE4AY1HYZrXcUbcPvfHiSOrXG4Myyn4+F62uxMq8zx9s/qKrs+hNHlzac=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ab084fddc66329c66422554a74cdde3cbaac708fd14d93df7ae96115c85ab27e" Description="" Url=""><as:assemblyIdentity name="VisualInspec.exe" version="1.0.0.0" publicKeyToken="2d167d6646344d0f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAP-RICH-DELL-2\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1hfHQSV5wbpmAztHAAX6Y/xSx6hqeaSacm9pKn7bIvE=</DigestValue></Reference></SignedInfo><SignatureValue>e2GamnN6zA7KfPNI7+GQXG5iGKKvPfpAP/7i6M2CQizySGz+cNC4TAl0wlCi/Wk7oxYg4DKnl1tI3ZR5OFSsl+SgbGDZYDKPgt23tSJ6VnhAy2BvwCVGOq+EhrEs23MJr7uI9wxnaQMIzKdN9Olb2hdvKkTVu2SihwCaQwwyuo8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mYWFb2wrjgMtXC6dZkA2DniA/jGNjtJWQ7i8s4PItGCUlhp2Win52kJ9+tZYZQ+Kw4qTskeE+/ek4IBG0wMdIjjSQk+6l93HaqKwdzi1KznbrMJq3eJE4AY1HYZrXcUbcPvfHiSOrXG4Myyn4+F62uxMq8zx9s/qKrs+hNHlzac=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQbyk34yYYPrJOHtl4KvKsqzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAALQBSAEkAQwBIAC0ARABFAEwATAAtADIAXABBAGQAbQBpAG4wHhcNMjAwODIyMDQzMjMyWhcNMjEwODIyMTAzMjMyWjA1MTMwMQYDVQQDHioATABBAFAALQBSAEkAQwBIAC0ARABFAEwATAAtADIAXABBAGQAbQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJmFhW9sK44DLVwunWZANg54gP4xjY7SVkO4vLODyLRglJYadlop+dpCffrWWGUPisOKk7JHhPv3pOCARtMDHSI40kJPupfdx2qisHc4tSs526zCat3iROAGNR2Ga13FG3D73x4kjq1xuDMsp+PhetrsTKvM8fbP6iq7PoTR5c2nAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAKLw8EJHAby0rJI12x39MIO5g4mNKWl8WMH26MyYZvoogROoptSmFEW6umzjjcYPSrR5CtP1XS9KhJZzCatWFdOhceoCNM+EWmk+rHPPHs2PVc9mdjxVDZUbpNot2pthpbq4NpVRUkUv+1u1r8bxYtYRnKDSvpVqHXMGdg4ZZTDc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

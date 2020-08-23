@@ -24,3 +24,8 @@ C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\Vi
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.csproj.CopyComplete
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.exe
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.pdb
+C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\VisualInspec.exe.manifest
+C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\VisualInspec.application
+C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.exe.manifest
+C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.application
+C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.csprojAssemblyReference.cache
