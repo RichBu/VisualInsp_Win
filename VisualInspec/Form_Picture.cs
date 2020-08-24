@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using System.Windows. Windows.Media.Imaging;
 
 //for camera
 using System.Media; // Windows.Media.Capture;
@@ -171,6 +172,8 @@ namespace VisualInspec
                 // Save in some directory
                 // in this example, we'll generate a random filename e.g 47059681-95ed-4e95-9b50-320092a3d652.png
                 // snapshot.Save(@"C:\Users\sdkca\Desktop\mysnapshot.png", ImageFormat.Png);
+                
+
                 snapshot.Save(string.Format(@"C:\Data\Junk\{0}.png", Guid.NewGuid()), ImageFormat.Png);
                 Application.DoEvents();
                 if (ConfigData.isMsgBoxPopUp)
