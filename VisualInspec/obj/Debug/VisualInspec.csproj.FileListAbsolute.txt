@@ -3,6 +3,8 @@ C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\dl
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\dll\x64\OpenCvSharpExtern.dll
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\dll\x64\opencv_ffmpeg400_64.dll
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\VisualInspec.exe.config
+C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\VisualInspec.exe.manifest
+C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\VisualInspec.application
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\VisualInspec.exe
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\VisualInspec.pdb
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\OpenCvSharp.Blob.dll
@@ -21,11 +23,8 @@ C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\Vi
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.Properties.Resources.resources
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.csproj.GenerateResource.cache
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.csproj.CoreCompileInputs.cache
+C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.exe.manifest
+C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.application
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.csproj.CopyComplete
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.exe
 C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.pdb
-C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\VisualInspec.exe.manifest
-C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\bin\Debug\VisualInspec.application
-C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.exe.manifest
-C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.application
-C:\Data\Per\Proj\Prog\Proj-VisualInspec\VisualInsp_Win\VisualInspec\obj\Debug\VisualInspec.csprojAssemblyReference.cache
