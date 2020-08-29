@@ -52,6 +52,11 @@
             this.bttnUpdate = new System.Windows.Forms.Button();
             this.cbCameraRes = new System.Windows.Forms.ComboBox();
             this.tbCameraFPS = new System.Windows.Forms.TextBox();
+            this.bttnExpUp = new System.Windows.Forms.Button();
+            this.bttnExpDown = new System.Windows.Forms.Button();
+            this.bttnBrightDwn = new System.Windows.Forms.Button();
+            this.bttnBrightUp = new System.Windows.Forms.Button();
+            this.bttnManExposure = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScreen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRaw)).BeginInit();
@@ -267,7 +272,7 @@
             // 
             // bttnUpdate
             // 
-            this.bttnUpdate.Location = new System.Drawing.Point(697, 427);
+            this.bttnUpdate.Location = new System.Drawing.Point(697, 359);
             this.bttnUpdate.Name = "bttnUpdate";
             this.bttnUpdate.Size = new System.Drawing.Size(90, 42);
             this.bttnUpdate.TabIndex = 12;
@@ -296,11 +301,66 @@
             this.tbCameraFPS.TabIndex = 14;
             this.tbCameraFPS.Text = "FPS";
             // 
+            // bttnExpUp
+            // 
+            this.bttnExpUp.Location = new System.Drawing.Point(840, 394);
+            this.bttnExpUp.Name = "bttnExpUp";
+            this.bttnExpUp.Size = new System.Drawing.Size(51, 42);
+            this.bttnExpUp.TabIndex = 15;
+            this.bttnExpUp.Text = "+Exp";
+            this.bttnExpUp.UseVisualStyleBackColor = true;
+            this.bttnExpUp.Click += new System.EventHandler(this.bttnExpUp_Click);
+            // 
+            // bttnExpDown
+            // 
+            this.bttnExpDown.Location = new System.Drawing.Point(840, 445);
+            this.bttnExpDown.Name = "bttnExpDown";
+            this.bttnExpDown.Size = new System.Drawing.Size(51, 42);
+            this.bttnExpDown.TabIndex = 16;
+            this.bttnExpDown.Text = "- Exp";
+            this.bttnExpDown.UseVisualStyleBackColor = true;
+            this.bttnExpDown.Click += new System.EventHandler(this.bttnExpDown_Click);
+            // 
+            // bttnBrightDwn
+            // 
+            this.bttnBrightDwn.Location = new System.Drawing.Point(897, 445);
+            this.bttnBrightDwn.Name = "bttnBrightDwn";
+            this.bttnBrightDwn.Size = new System.Drawing.Size(51, 42);
+            this.bttnBrightDwn.TabIndex = 18;
+            this.bttnBrightDwn.Text = "- Bright";
+            this.bttnBrightDwn.UseVisualStyleBackColor = true;
+            this.bttnBrightDwn.Click += new System.EventHandler(this.bttnBrightDwn_Click);
+            // 
+            // bttnBrightUp
+            // 
+            this.bttnBrightUp.Location = new System.Drawing.Point(897, 394);
+            this.bttnBrightUp.Name = "bttnBrightUp";
+            this.bttnBrightUp.Size = new System.Drawing.Size(51, 42);
+            this.bttnBrightUp.TabIndex = 17;
+            this.bttnBrightUp.Text = "+Bright";
+            this.bttnBrightUp.UseVisualStyleBackColor = true;
+            this.bttnBrightUp.Click += new System.EventHandler(this.bttnBrightUp_Click);
+            // 
+            // bttnManExposure
+            // 
+            this.bttnManExposure.Location = new System.Drawing.Point(783, 425);
+            this.bttnManExposure.Name = "bttnManExposure";
+            this.bttnManExposure.Size = new System.Drawing.Size(51, 42);
+            this.bttnManExposure.TabIndex = 19;
+            this.bttnManExposure.Text = "Man Exp";
+            this.bttnManExposure.UseVisualStyleBackColor = true;
+            this.bttnManExposure.Click += new System.EventHandler(this.bttnManExposure_Click);
+            // 
             // Form_Picture
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(969, 607);
+            this.Controls.Add(this.bttnManExposure);
+            this.Controls.Add(this.bttnBrightDwn);
+            this.Controls.Add(this.bttnBrightUp);
+            this.Controls.Add(this.bttnExpDown);
+            this.Controls.Add(this.bttnExpUp);
             this.Controls.Add(this.tbCameraFPS);
             this.Controls.Add(this.cbCameraRes);
             this.Controls.Add(this.bttnUpdate);
@@ -357,6 +417,11 @@
         private System.Windows.Forms.Button bttnUpdate;
         private System.Windows.Forms.ComboBox cbCameraRes;
         private System.Windows.Forms.TextBox tbCameraFPS;
+        private System.Windows.Forms.Button bttnExpUp;
+        private System.Windows.Forms.Button bttnExpDown;
+        private System.Windows.Forms.Button bttnBrightDwn;
+        private System.Windows.Forms.Button bttnBrightUp;
+        private System.Windows.Forms.Button bttnManExposure;
     }
 }
 

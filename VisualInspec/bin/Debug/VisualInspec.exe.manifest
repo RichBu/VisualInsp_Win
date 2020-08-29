@@ -90,14 +90,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualInspec.exe" size="24064">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualInspec.exe" size="25600">
       <assemblyIdentity name="VisualInspec" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YKky5Na6ZJQbNRXeb+Sj8WEzdt7vn2Gt+fwbYFxsTR0=</dsig:DigestValue>
+        <dsig:DigestValue>DZbRkl8KrlCUJIvrByw693qXMBdeHK5Lk803eJ/XdGo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

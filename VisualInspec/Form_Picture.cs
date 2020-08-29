@@ -40,6 +40,7 @@ namespace VisualInspec
         const int CV_CAP_PROP_FRAME_WIDTH = 3;
         const int CV_CAP_PROP_FRAME_HEIGHT = 4;
         const int CV_CAP_FPS = 5;
+        const int CV_CAP_EXPOSURE = 15;
 
         ConfigDataType ConfigData;
         List<PicSetDescripType> PicSetDescrip_table;
@@ -89,21 +90,26 @@ namespace VisualInspec
 
             outRec = new PicSetDescripType();
             outRec.PicTypeCode = 14;
-            outRec.Description = "Top View of Bushings";
+            outRec.Description = "Gap - Front";
             outRecs.Add(outRec);
 
             outRec = new PicSetDescripType();
             outRec.PicTypeCode = 15;
-            outRec.Description = "Bottom View of Bushings";
+            outRec.Description = "Top View of Bushings";
             outRecs.Add(outRec);
 
             outRec = new PicSetDescripType();
             outRec.PicTypeCode = 16;
-            outRec.Description = "Core (top) - all cavities";
+            outRec.Description = "Bottom View of Bushings";
             outRecs.Add(outRec);
 
             outRec = new PicSetDescripType();
             outRec.PicTypeCode = 17;
+            outRec.Description = "Core (top) - all cavities";
+            outRecs.Add(outRec);
+
+            outRec = new PicSetDescripType();
+            outRec.PicTypeCode = 18;
             outRec.Description = "Cavity (bottom) - all cavities";
             outRecs.Add(outRec);
 
@@ -136,12 +142,14 @@ namespace VisualInspec
             return _strIn.Substring(iStart, _length);
         }
 
+
         public string RightStr(string _strIn, int _length)
         {
             int iStart = _strIn.Length - _length;
             //string result = _strIn.Substring( iStart, _length);
             return _strIn.Substring(iStart, _length);
         }
+
 
         public string PadZeroesStr(int _NumIn, int _NumZeroes)
         {
@@ -452,6 +460,31 @@ namespace VisualInspec
         {
             /*
             */
+        }
+
+        private void bttnBrightUp_Click(object sender, EventArgs e)
+        {
+            capture.Brightness = capture.Brightness + (double)(1.0);
+        }
+
+        private void bttnBrightDwn_Click(object sender, EventArgs e)
+        {
+            capture.Brightness = capture.Brightness - (double)(1.0);
+        }
+
+        private void bttnExpUp_Click(object sender, EventArgs e)
+        {
+            capture.Exposure = capture.Exposure + (double)(1.0);
+        }
+
+        private void bttnExpDown_Click(object sender, EventArgs e)
+        {
+            capture.Exposure = capture.Exposure - (double)(1.0);
+        }
+
+        private void bttnManExposure_Click(object sender, EventArgs e)
+        {
+            capture.Set(CV_CAP_EXPOSURE, (double)(0.250));  //manual iris
         }
     }
 
